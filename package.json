@@ -1,0 +1,20 @@
+{
+  "name": "qiankun-turborepo-pnpm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --parallel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qiankun": "^2.10.16"
+  },
+  "devDependencies": {
+    "vite-plugin-qiankun": "^1.0.15"
+  }
+}
